@@ -87,7 +87,7 @@ for country_name, properties in countries.items():
 # print (sea_countries)
 # print('Страны в Шенгене и с морем:', schengen_countries & sea_countries)
 # используем & чтобы найти пересеч множеств
-
+# что то изменилось
 
 sea_schengen_countries = (warm_countries & sea_countries and schengen_countries) & money_enough_month
 
